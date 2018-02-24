@@ -1,0 +1,25 @@
+#header{
+/*     min-height: 100vh; */
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    /*height: 500px;*/
+    z-index: 1;
+    width: 100%;
+    text-align:center;
+    background-image: url("../img/headerBg.jpg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 0px;
+    position: relative;
+
+    /*-webkit-filter: opacity(.5);*/
+    /*filter: opacity(.5);*/
+}
+#header img{
+    position: absolute;
+    right: 0px;
+    width: 400px;
+}

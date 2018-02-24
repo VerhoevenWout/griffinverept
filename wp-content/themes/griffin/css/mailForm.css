@@ -1,0 +1,61 @@
+
+#mail{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #3e3e3e;
+    position: relative;
+    top: 5px;
+}
+#mail .inputfield{
+    width: 100%;
+    background-color: rgba(0,0,0,0.03);
+    border: 0px solid;
+    padding: 5px;
+    margin-top: 10px;
+    height: 30px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.first{
+    margin-top: 0px !important;
+}
+
+#mail textarea{
+    width: 100%;
+    background-color: rgba(0,0,0,0.03);
+    border: 0px solid;
+    padding: 5px;
+    margin-top: 10px;
+    height: 145px;
+    resize: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#btnSend{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 0px;
+    margin-top: 20px;
+    color: #3e3e3e;
+    background-color: inherit;
+    border: 1px solid #3e3e3e;
+    border-radius: 0px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+#btnSend:hover,
+#btnSend:active {
+    background-color: #3e3e3e;;
+    color: white;
+    transition: color 0.3s ease-in, background-color 0.1s ease-in,
+    color 0.3s ease-in;
+    cursor: pointer;
+}

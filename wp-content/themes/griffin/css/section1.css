@@ -1,0 +1,131 @@
+#section1{
+	/*min-height: calc(100vh - 60px);*/
+	padding-bottom: 50px;
+}
+.circle-avatar{
+	background-image:url(../img/griffin2.jpg);
+
+	/* make it responsive */
+	max-width: 100%;
+	width:100%;
+	height:auto;
+	display:block;
+	/* div height to be the same as width*/
+	padding-top:100%;
+
+	/* make it a cirkle */
+	border-radius:50%;
+
+	/* Centering on image`s center*/
+	background-position-y: center;
+	background-position-x: center;
+	background-repeat: no-repeat;
+
+	/* it makes the clue thing, takes smaller dimention to fill div */
+	background-size: cover;
+
+	/* it is optional, for making this div centered in parent*/
+/*	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+}
+#section1 #representation{
+	position: relative;
+	/*left: 120px;*/
+}
+#section1 #representation h3{
+	padding-top: 20px;
+	margin-bottom: 5px;
+	color: #3e3e3e;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 0px;
+}
+#section1 #representation p{
+	text-align: center;
+}
+#section1 #socialIcons{
+	text-align: center;
+}
+#section1 #representation .mail i{
+	font-size: 25px;
+	color: #777;
+	position: relative;
+	bottom: 2px;
+	right: 3px;
+	transition: all .3s;
+	-webkit-transition: .3s;
+	z-index: 100;
+}
+#section1 #representation .mail:hover > i{
+	color: #C63D2D;
+	/*color: black;*/
+	transition: all .3s;
+  	-webkit-transition: .3s;
+  	text-decoration: none;
+}
+#section1 #representation .linkedIn{
+	padding-left: 10px;
+  	text-decoration: none;
+}
+#section1 #representation .linkedIn i{
+	font-size: 30px;
+	/*color: #006DCD;*/
+	color: #777;
+	transition: all .3s;
+  	-webkit-transition: .3s;
+  	text-decoration: none;
+  	z-index: 100;
+}
+#section1 #representation .linkedIn:hover > i{
+	color: #4875B4;
+	/*color: black;*/
+	transition: all .3s;
+  	-webkit-transition: .3s;
+  	text-decoration: none;
+}
+#section1 #representation .twitter{
+	padding-left: 10px;
+  	text-decoration: none;
+}
+#section1 #representation .twitter i{
+	font-size: 30px;
+	/*color: #00A3FF;*/
+	color: #777;
+	transition: all .3s;
+  	-webkit-transition: .3s;
+  	z-index: 100;
+}
+#section1 #representation .twitter:hover > i{
+	color: #33CCFF;
+	/*color: black;*/
+	transition: all .3s;
+  	-webkit-transition: .3s;
+  	text-decoration: none;
+}
+
+
+#section1 #representationText{
+	padding-top: 25px;
+	padding-left: 30px!important;
+	padding-right: 30px!important;
+}
+#section1 #representationText h3{
+	padding-bottom: 0px;
+}
+.extraPaddingTop{
+	padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,131 @@
+.navbar-fixed-top .navbar-collapse {
+    max-height: 300px!important;
+}
+.navbar-brand{
+    position: relative;
+    color: var(--theme) !important;
+    transition: 0.3s;
+	padding: 0 !important;
+	font-family: 'lato', sans-serif;
+	top: -5px;
+	filter: none;
+  	-webkit-filter: grayscale(0%);
+}
+.navbar-brand:hover{
+	cursor: pointer;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+	transition: all .3s;
+}
+.navbarImage{
+	height: 100% !important;
+	padding: 0 !important;
+	transition: all .3s;
+  	-webkit-transition: .3s;
+}
+.navbar-toggle {
+    z-index: 3;
+}
+nav{
+	background-color: white !important;
+	border-radius: 0 !important;
+	height: 80px !important;
+	font-size: 16px;
+	border: 0 !important;
+	transition: all 0.3s;
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	/*font-family: 'Cormorant Garamond', sans-serif;*/
+	font-weight: 100;
+	margin-bottom: 0 !important;
+}
+nav li a{
+	padding: 5px 0px 5px 0px !important;
+	margin: 0 0 0 0 !important;
+	transition: 0.3s;
+	width: 100%;
+	display:inline !important;
+	line-height:30px !important;
+}
+nav li a:hover{
+	cursor: pointer;
+	color: black !important;
+}
+nav li:nth-child(1){
+	position: relative;
+	left: -30px !important;
+}
+nav li{
+	width: 100px;
+	padding: 0;
+}
+.socialIcon{
+	width: 30px;
+}
+.navbarContent{
+	padding-top: 20px !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: inherit !important; 
+    border: none !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: inherit !important;
+}
+.navbar-collapse{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.navbar-right .navitem{
+	text-align: right;
+	position: relative;
+	top: 0px;
+	margin: 0 0px 0 0px !important;
+	padding: 5px 0 0 0 !important;
+	/*left: 10px;*/
+	transition: all .3s;
+  	-webkit-transition: .3s;
+}
+.navbar-right .navitem a{
+	/*padding-right: 0 !important;*/
+	/*padding-left: 50px !important;*/
+}
+.navbar-right{
+	margin-right: 0px !important;
+}
+.navbar-right .griffin{
+	/* padding-left: 40px !important; */
+	width: 110px;
+}
+.shrinkNav{
+	height: 60px !important;
+}
+.shrinkNavbarImage{
+    height: 30px !important;
+}
+.pushTop{
+	top: -10px !important;
+	transition: all .3s;
+  	-webkit-transition: .3s;
+}
+nav li .home{
+	color: black!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

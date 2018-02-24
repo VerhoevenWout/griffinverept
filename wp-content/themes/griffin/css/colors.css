@@ -1,0 +1,15 @@
+:root{
+	--black:#000000;
+	--white:#FFFFFF;
+
+	--nonFocus: #777;
+	--backgroundSection: rgba(238, 238, 238, 0.31);
+
+	--grey:#262626;
+	--darkGrey:#3e3e3e;
+	--navbarWhite: rgba(255,255,255,0);
+	--whiteTransparant: rgba(0,0,0,0.03);
+
+	--themeVerhoevenwout:#F5ED4D;
+
+}

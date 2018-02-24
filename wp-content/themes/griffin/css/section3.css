@@ -1,0 +1,22 @@
+#section3{
+	/* min-height: calc(100vh - 60px); */
+	/*	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;*/
+	padding-bottom: 50px;
+}
+.iconContainer{
+	/*height: 100%;*/
+}
+.ereloonImg{
+	width: 80px;
+	height: auto;
+	/*margin-top: 80%;*/
+	/*opacity: 0;*/
+}
+#section3 p{
+	/* text-align: justify !important; */
+}
